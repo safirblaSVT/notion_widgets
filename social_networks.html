@@ -44,7 +44,7 @@
       font-size: 1.2em;
     }
 
-    .blog:hover {
+    .filmaffinity:hover {
       background-color: #ffbd2f;
     }
 
@@ -108,11 +108,11 @@
 
     <div class="wrapper">
 
-      <!-- Start blog Icon -->
-      <div id="blog" onclick="navigate(this.id)" class="social blog">
+      <!-- Start filmaffinity Icon -->
+      <div id="filmaffinity" onclick="navigate(this.id)" class="social filmaffinity">
         <span class="icon"><i class="fa-solid fa-blog"></i></span>
       </div>
-      <!-- End blog Icon -->
+      <!-- End filmaffinity Icon -->
 
       <!-- Start email Icon -->
       <div id="email" onclick="navigate(this.id)" class="social email">
@@ -187,8 +187,8 @@
 
         //if you want the URL to open in the same window use '_parent'  instead of '_blank'
 
-        if (id === "blog")
-          window.open("https://blog.shorouk.dev", '_blank').focus(); //Add the url to your blog
+        if (id === "filmaffinity")
+          window.open("https://www.filmaffinity.com/es/main.html", '_blank').focus(); //Add the url to your blog
 
         else if (id === "email") {
           window.open("mailto:someone@yoursite.com", '_blank').focus(); //Add your email after "mailto:""
